@@ -1,0 +1,32 @@
+body{
+    background-color: rgba(218, 158, 99, 0.87);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size:20px;
+    height:10px;
+}
+header{
+    background-image: url("../slike/dom11.png");
+}
+ul li{
+    display:flex;
+    float:left;
+    height:50px;
+}
+ul{
+    list-style-type:none;
+    margin:0;
+    padding:0;
+}
+ul li a{
+    background-color: darkgoldenrod;
+    border:2px solid rgb(134, 64, 38);
+    color:rgba(0, 0, 0, 0.486);
+    padding:12px 20px;
+    text-decoration: none;
+}
+a:hover{
+    background-color: rgba(255, 68, 0, 0.39);
+}
+h1,h2{
+    color: brown ;
+}
